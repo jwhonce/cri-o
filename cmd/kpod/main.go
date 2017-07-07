@@ -20,6 +20,7 @@ func main() {
 		launchCommand,
 		tagCommand,
 		versionCommand,
+		psCommand,
 	}
 
 	if err := app.Run(os.Args); err != nil {
